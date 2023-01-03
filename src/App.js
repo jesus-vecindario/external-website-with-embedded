@@ -5,8 +5,6 @@ import { SCHEDULER_EMBEDDED, SLUG } from './env';
 import { importResource, removeMultipleResources, removeResource } from './functions';
 
 const App = () => {
-
-
   useEffect(() => {
 		setTimeout(() => {
 			importResource({
